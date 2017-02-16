@@ -26,13 +26,13 @@ Stylesheet: Layout Stylesheet
     }
 
         .logo-container {
-            @include grid(3);
+            @include grid(2);
             @include break(tablet, 12);
             @include break(mobile, 12);
         }
 
       #sidebar-header {
-        @include grid(4, $push:4);
+        @include grid(4, $push:6);
         @include break(tablet, 12);
         @include break(mobile, 12);
       }
